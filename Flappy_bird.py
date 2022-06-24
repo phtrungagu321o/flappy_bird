@@ -40,7 +40,8 @@ san_img=pygame.transform.scale(san_img,(400,30))
 background_img=pygame.image.load('images/background.png')
 background_img=pygame.transform.scale(background_img ,(400,600))
 # load sound
-sound=pygame.mixer.Sound('no6.wav')
+# sound=pygame.mixer.Sound('no6.wav')
+
 # load con chim
 bird_img=pygame.image.load('images/bird.png')
 # chuyển con về về định dạng cho sẵn
@@ -57,7 +58,7 @@ pausing=False
 
 running=True
 while running:
-    pygame.mixer.Sound.play(sound)
+    # pygame.mixer.Sound.play(sound)
     clock.tick(60)
     screen.fill(WHITE)
     # chèn background_img
